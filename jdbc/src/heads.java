@@ -35,5 +35,7 @@ public class heads {
         //释放资源
         stmt.close();
         conn.close();
+
+
     }
 }
