@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e771dbb0-f949-452e-a362-9914447d2707" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSummarize.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc/jdbc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc/lib/mysql-connector-java-8.0.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc/src/api/Connection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc/src/api/DriverManagers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc/src/api/PrepareStatements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc/src/api/ResultSets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc/src/api/StateMent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc/src/api/Students.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc/src/heads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/问题集锦.txt" afterDir="false" />
-    </list>
+    <list default="true" id="e771dbb0-f949-452e-a362-9914447d2707" name="变更" comment="changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,6 +146,14 @@
       <option name="presentableId" value="Default" />
       <updated>1664148199447</updated>
     </task>
+    <task id="LOCAL-00001" summary="changes">
+      <created>1664162603885</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664162603885</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,5 +166,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
 </project>
