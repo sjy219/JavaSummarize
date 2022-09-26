@@ -1,2 +1,8 @@
 1.快捷键
     ctrl+alt+t:环绕方式（if,try-catch..)
+
+2.@Test的配置
+    在需要测试的方法前输入@Test
+    鼠标选中@Test，点击左侧红色灯泡
+    选中 Add’JUnit5.4’ to classpath
+    勾选 Download，点击 ok
