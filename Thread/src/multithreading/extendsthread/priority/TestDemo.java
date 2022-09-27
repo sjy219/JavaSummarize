@@ -5,9 +5,14 @@ public class TestDemo {
         MyThread my1 = new MyThread();
         MyThread my2 = new MyThread();
 
-//        my1.start();
-//        my2.start();
+        my1.setPriority(1);
+        my2.setPriority(10);
+
+        my1.start();
+        my2.start();
         System.out.println(my1.getPriority());
         System.out.println(my2.getPriority());
+
+
     }
 }

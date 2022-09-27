@@ -1,0 +1,23 @@
+多线程的实现方式：
+    1.继承Tread类
+    --定义一个类MyThread继承Thread类
+    --在MyThread类中重写run()方法
+    --创建MyThread类的对象
+    --启动线程
+
+    getName(): 获得线程名称
+    setName(): 设置线程名称
+
+    getPriority(): 获取线程优先级
+    setPriority(): 设置线程优先级
+
+    Thread.sleep(int s): 等待s时间
+    join(): 等待对应的线程执行结束
+    setDaemon(): 设置对应线程为守护线程，只有守护线程时，JVM退出
+
+    2.实现Runnable接口
+    ---定义一个类MyRunnable实现Runnable接口
+    ---在MyRunnable类中重写run()方法
+    ---创建MyRunnable类的对象
+    ---使用Thread类的对象，把MyRunnable对象作为参数传递
+    ---启动线程
