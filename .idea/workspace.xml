@@ -2,21 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e771dbb0-f949-452e-a362-9914447d2707" name="变更" comment="changes">
-      <change afterPath="$PROJECT_DIR$/Thread/src/multithreading/extendsthread/runnables/MyRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/src/multithreading/extendsthread/runnables/TestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/src/produce_customer/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/src/produce_customer/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/src/produce_customer/Produces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/src/produce_customer/TestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/src/produce_customer/案例分析.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/src/thread.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thread/Thread.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/io.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/src/bytechars/CopyFile01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/src/bytechars/CopyVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/src/bytechars/bytechars.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/src/bytechars/cp01-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/src/bytechars/cp01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/src/file/RecuDir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/src/file/Recurrences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/src/file/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thread/src/multithreading/extendsthread/priority/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/src/multithreading/extendsthread/priority/TestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thread/src/produce_customer/案例分析.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/src/produce_customer/案例分析.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,23 +51,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/java/Projects/JavaSummarize/Thread/src&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/java/Projects/JavaSummarize/Thread/src",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\java\Projects\JavaSummarize\Thread\src" />
@@ -72,82 +79,90 @@
       <recent name="D:\java\Projects\JavaSummarize\Thread\src\multithreading\extendsthread" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.produce_customer.TestDemo">
-    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.extendsthread.priority.TestDemo" />
-      <module name="Thread" />
+  <component name="RunManager" selected="TestNG.Tim.speak">
+    <configuration name="CopyVideo.read" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="io" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multithreading.extendsthread.priority.*" />
+          <option name="PATTERN" value="bytechars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestExtendsTreahd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.extendsthread.TestExtendsTreahd" />
-      <module name="Thread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multithreading.extendsthread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="multithreading.extendsthread.runnables.TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.extendsthread.runnables.TestDemo" />
-      <module name="Thread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multithreading.extendsthread.runnables.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="produce_customer.TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="produce_customer.TestDemo" />
-      <module name="Thread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="produce_customer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestExtendsTreahd.run2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Thread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multithreading.extendsthread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="multithreading.extendsthread" />
-      <option name="MAIN_CLASS_NAME" value="multithreading.extendsthread.TestExtendsTreahd" />
-      <option name="METHOD_NAME" value="run2" />
+      <option name="PACKAGE_NAME" value="bytechars" />
+      <option name="MAIN_CLASS_NAME" value="bytechars.CopyVideo" />
+      <option name="METHOD_NAME" value="read" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CopyVideo.read2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="io" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bytechars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bytechars" />
+      <option name="MAIN_CLASS_NAME" value="bytechars.CopyVideo" />
+      <option name="METHOD_NAME" value="read2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CopyVideo.read3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="io" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bytechars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bytechars" />
+      <option name="MAIN_CLASS_NAME" value="bytechars.CopyVideo" />
+      <option name="METHOD_NAME" value="read3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CopyVideo.read4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="io" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bytechars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bytechars" />
+      <option name="MAIN_CLASS_NAME" value="bytechars.CopyVideo" />
+      <option name="METHOD_NAME" value="read4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tim.speak" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaSummarize" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tim" />
+      <option name="METHOD_NAME" value="speak" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.produce_customer.TestDemo" />
-        <item itemvalue="应用程序.multithreading.extendsthread.runnables.TestDemo" />
-        <item itemvalue="应用程序.TestDemo" />
-        <item itemvalue="应用程序.TestExtendsTreahd" />
-        <item itemvalue="JUnit.TestExtendsTreahd.run2" />
+        <item itemvalue="TestNG.Tim.speak" />
+        <item itemvalue="JUnit.CopyVideo.read" />
+        <item itemvalue="JUnit.CopyVideo.read3" />
+        <item itemvalue="JUnit.CopyVideo.read2" />
+        <item itemvalue="JUnit.CopyVideo.read4" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664247755605</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="changes">
+      <created>1664261119952</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664261119952</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -1,0 +1,45 @@
+----------------------字节流写数据-------------------
+字节流抽象类基类：
+1.InputStream: 字节输入流的所有类的超类
+    FileOutputStream(String name): 创建文件输出流以指定的名称写入文件
+                FileOutputStream fo = new FileOutputStream("mycat//s.txt")
+                        s.txt文件要存在
+
+        字节流读数据的3种方法：
+            1.int read(): 一次读取一个字节，返回值int是字节类型
+                    返回值=-1，文件已经读取到文件末尾
+            2.int read(byte[] b):
+                    byte[] bytes = new byte[1024];
+                    int len  = read(bytes);//把数据读取到字节数组中，返回实际读取到的字节个数len
+                    返回值：实际读取到的字节个数int len
+                    String bs = new String(bytes, 0, len)
+                    System.out.println(bs)
+    BufferedInputStream(InputStream in):
+
+
+
+2.OutputStream: 字节输出流所有类的超类
+    FileOutputStream(String name): 创建文件输出流以指定的名称写入文件
+            FileOutputStream fo = new FileOutputStream("mycat//s.txt")
+                    s.txt文件不存在的情况下，直接新建该文件，如果存在的话，直接向其中写
+                    入数据，可以用覆盖，也可以用append追加的方式写入数据
+        字节流写数据的3种方式：
+            1.void write(int b): 一次写入一个字节b
+            2.void write(byte[] b): 一次写入一个字节数组的数据b
+                byte[] bytes = "hello".getBytes();//构建一个字节数组
+            3.void write(byte[] b, int off, int len): 一次写一个字节数组的一部分数据
+                write(bytes, 2, bytes.length)
+
+            换行：
+                windows:    fo.write("\r\n")
+                linux:  fo.write("\n")
+                macos:  fo.write("r")
+
+    BufferedOutStream(OutputStream out): 创建新的缓冲输出流，将数据写入指定的基础输出流
+        void flush() 刷新此缓冲的输出流。
+        void write(byte[] b, int off, int len) 将从偏移量 off开始的指定字节数组中的 len字节写入此缓冲输出流。
+        void write(int b) 将指定的字节写入此缓冲的输出流。
+
+
+
+

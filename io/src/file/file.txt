@@ -1,0 +1,21 @@
+-------------------构造方法-----------------
+File(File parent, String child)
+FIle(String pathname)
+File(String parent, String child)
+
+-----------------创建功能--------------------
+public boolean createNewFile(): 当具有该名称的文件不存在时，创建一个由该抽象路径名命名的新空文件
+public boolean mkdir(): 创建由此抽象路径名命名的目录
+public boolean mkdirs(): 创建由此抽象路径名命名的目录，包括任何必需但不存在的目录
+    也就是可以创建多级目录: File file = new File("my/cat/hello/dir")
+                        file.mkdirs(),可以创建出my,cat,hello,dir所有的目录
+
+-----------------File类判断和获取功能-----------------
+public boolean isDirectory(): 测试抽象路径名表示的File对象是否是目录
+public boolean isFile(); 测试抽象路径名表示的File对象是否是文件
+public boolean exists(): 测试抽象路径名表示的File对象是否存在
+public String getAbsolutePath():返回此抽象路径名的绝对路径名字符串
+public String getName(): 返回此抽象路径名表示的文件或目录的名字
+public String[] list(): 返回此抽象路径名表示的目录中的文件和目录的名称字符串数组
+public File[] listFiles(): 返回此抽象路径名表示的目录中的文件和目录的File对象数组
+
