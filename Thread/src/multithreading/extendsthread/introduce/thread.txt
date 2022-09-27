@@ -1,0 +1,9 @@
+多线程的实现方式：
+    1.继承Tread类
+    --定义一个类MyThread继承Thread类
+    --在MyThread类中重写run()方法
+    --创建MyThread类的对象
+    --启动线程
+
+    getName(): 获得线程名称
+    setName(): 设置线程名称

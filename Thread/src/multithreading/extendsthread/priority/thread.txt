@@ -1,0 +1,13 @@
+多线程的实现方式：
+    1.继承Tread类
+    --定义一个类MyThread继承Thread类
+    --在MyThread类中重写run()方法
+    --创建MyThread类的对象
+    --启动线程
+
+    getName(): 获得线程名称
+    setName(): 设置线程名称
+
+    设置和获取线程优先级
+    ---public final int getPriority(): 返回此线程的优先级
+    ---public final void setPriority(int newPriority): 设置此线程的优先级
