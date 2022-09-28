@@ -32,6 +32,7 @@ public class introduce {
         prop.put("001", "张三");
         prop.put("002", "李四");
         prop.put("003", "王五");
+        System.out.println(prop);
         //遍历properties集合
         Set<Object> keySet = prop.keySet();
         for (Object key : keySet) {

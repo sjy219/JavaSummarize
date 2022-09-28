@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e771dbb0-f949-452e-a362-9914447d2707" name="变更" comment="changes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/io/src/properties/introduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/io/src/properties/introduce.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +70,7 @@
       <recent name="D:\java\Projects\JavaSummarize\Thread\src\multithreading\extendsthread" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.introduce.strPropNames">
+  <component name="RunManager" selected="JUnit.introduce.setP">
     <configuration name="CopyTribleFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="copycases.CopyTribleFiles" />
       <module name="io" />
@@ -148,9 +147,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.introduce.setP" />
         <item itemvalue="JUnit.introduce.strPropNames" />
         <item itemvalue="JUnit.introduce.getP" />
-        <item itemvalue="JUnit.introduce.setP" />
         <item itemvalue="应用程序.introduce" />
         <item itemvalue="应用程序.CopyTribleFiles" />
       </list>
@@ -305,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664407525675</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="changes">
+      <created>1664408782385</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1664408782385</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
