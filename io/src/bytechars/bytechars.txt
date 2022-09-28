@@ -1,4 +1,4 @@
-----------------------字节流写数据-------------------
+----------------------字节流读写数据-------------------
 字节流抽象类基类：
 1.InputStream: 字节输入流的所有类的超类
     FileOutputStream(String name): 创建文件输出流以指定的名称写入文件
@@ -15,6 +15,7 @@
                     String bs = new String(bytes, 0, len)
                     System.out.println(bs)
     BufferedInputStream(InputStream in):
+        返回值=-1，读取到文件结束
 
 
 
@@ -39,6 +40,39 @@
         void flush() 刷新此缓冲的输出流。
         void write(byte[] b, int off, int len) 将从偏移量 off开始的指定字节数组中的 len字节写入此缓冲输出流。
         void write(int b) 将指定的字节写入此缓冲的输出流。
+
+--------------------------字符流读写数据--------------------------------
+OutputStreamWriter(OutputStream out): 创建一个使用默认字符编码的OutputStreamWriter
+    FileWriter(String fileName)
+
+    字符流写数据：
+        void write(int b): 写一个字符
+        void write(char[] buf): 写一个字符数组
+        void write(char[] buf, int offset, int length): 写一个字符数组的一部分
+        void write(String str): 写一个字符串
+        void write(String str, int off, int length): 写一个字符串的一部分
+
+InputStreamReader(InputStream in): 创建一个使用默认编码的InputStreamReader
+    FileReader(String fileName)
+
+    字符流读数据的2种方法：
+        int read(): 一次读一个字符数据
+            返回值：读取到的字符
+            结束标志：返回值=-1
+        int read(char[] buf): 一次读一个字符数组数据,
+            返回值：实际读取到的字符的个数
+            结束标志：返回值=-1
+
+    ---------Buffered字符流读写数据---------
+1.BufferedWriter(Writer out):
+
+
+
+2.BufferedReader(Reader in):
+
+
+
+
 
 
 
