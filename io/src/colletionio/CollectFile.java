@@ -2,10 +2,7 @@ package colletionio;
 
 import org.junit.Test;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.FileReader;
-import java.io.FileWriter;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Scanner;
@@ -173,5 +170,27 @@ public class CollectFile {
         //释放资源
         bw.close();
     }
+
+    //--------------------复制单级文件夹-----------------\\
+        //单级文件夹，当前目录下只有文件，把当前目录和目录下的所有文件复制到指定位置
+        //把当前项目下的test目录，复制到src/colletionio/下
+    @Test
+    public void copySingleDir() throws Exception{
+        //创建数据源对象
+        File srcFile = new File("D:\\java\\Projects\\JavaSummarize\\test");
+
+        //获取数据源目录的名字
+        String srcFileName = srcFile.getName();
+
+        //创建目的地对象，并判断是否包含数据源目录同名的目录
+        File targetFile = new File("src/colletionio", srcFileName);
+        if (!targetFile.exists()) {
+            targetFile.mkdir();
+        }
+
+    }
+
+    //--------------------复制多级文件夹-----------------\\
+
 
 }

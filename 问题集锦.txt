@@ -1,6 +1,7 @@
 1.快捷键
     ctrl+alt+t:环绕方式（if,try-catch..)
     向下复制一整行：ctrl+d
+    向下移动一张行： shift+alt+'上下方向键‘
     选中一个单词：ctrl+w ->选中相同的所有单词：shift+F6
     删除一整行：ctrl+y
 
