@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e771dbb0-f949-452e-a362-9914447d2707" name="变更" comment="changes">
+      <change afterPath="$PROJECT_DIR$/io/src/colletionio/CollToFileSorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/src/colletionio/StudentsTotal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/io/src/colletionio/CollectFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/io/src/colletionio/CollectFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/问题集锦.txt" beforeDir="false" afterPath="$PROJECT_DIR$/问题集锦.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +61,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="colletionio" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\java\Projects\JavaSummarize\Thread\src" />
       <recent name="D:\java\Projects\JavaSummarize\Thread\src\multithreading\extendsthread\priority" />
@@ -68,7 +74,20 @@
       <recent name="D:\java\Projects\JavaSummarize\Thread\src\multithreading\extendsthread" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CollectFile.colToFilePro">
+  <component name="RunManager" selected="应用程序.CollToFileSorted">
+    <configuration name="CollToFileSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="colletionio.CollToFileSorted" />
+      <module name="io" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="colletionio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CollectFile.colToFilePro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="io" />
       <extension name="coverage">
@@ -85,7 +104,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectFile.coltofile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CollectFile.collecToFileSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="io" />
       <extension name="coverage">
         <pattern>
@@ -95,7 +114,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="colletionio" />
       <option name="MAIN_CLASS_NAME" value="colletionio.CollectFile" />
-      <option name="METHOD_NAME" value="coltofile" />
+      <option name="METHOD_NAME" value="collecToFileSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollectFile.fileToColl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="io" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="colletionio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="colletionio" />
+      <option name="MAIN_CLASS_NAME" value="colletionio.CollectFile" />
+      <option name="METHOD_NAME" value="fileToColl" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,45 +152,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CopyFileChar.read4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="io" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bytechars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bytechars" />
-      <option name="MAIN_CLASS_NAME" value="bytechars.CopyFileChar" />
-      <option name="METHOD_NAME" value="read4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CopyFileChar.read5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="io" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bytechars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bytechars" />
-      <option name="MAIN_CLASS_NAME" value="bytechars.CopyFileChar" />
-      <option name="METHOD_NAME" value="read5" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.CollToFileSorted" />
+        <item itemvalue="JUnit.CollectFile.collecToFileSort" />
+        <item itemvalue="JUnit.CollectFile.fileToColl" />
         <item itemvalue="JUnit.CollectFile.colToFilePro" />
         <item itemvalue="JUnit.CollectFile.filetocoll" />
-        <item itemvalue="JUnit.CollectFile.coltofile" />
-        <item itemvalue="JUnit.CopyFileChar.read5" />
-        <item itemvalue="JUnit.CopyFileChar.read4" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664334333569</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="changes">
+      <created>1664343153603</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1664343153603</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
