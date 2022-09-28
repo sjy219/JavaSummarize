@@ -64,12 +64,19 @@ InputStreamReader(InputStream in): 创建一个使用默认编码的InputStreamR
             结束标志：返回值=-1
 
     ---------Buffered字符流读写数据---------
-1.BufferedWriter(Writer out):
+1.BufferedReader(Reader in):
+    int read(): 一次读一个字符
+        返回值=-1，读取到文件末尾
+    int read(char[] cbuf): 一次读一个字符数组
+        返回值=-1，读取到文件末尾
+    public String readline(): 读一行文字，结果包含行的内容的字符串，不包括任何行的终止符
+        返回值=null，读取文件到达结尾
 
 
-
-2.BufferedReader(Reader in):
-
+2.BufferedWriter(Writer out):
+    int write(): 一次写一个字符
+    int write(char[] cbuf, int off, len): 一次写一个字符数组,
+    void newLine(): 写一行行分隔符，行分隔符字符串由系统属性定义
 
 
 

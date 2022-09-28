@@ -5,8 +5,10 @@ import org.junit.Test;
 import java.io.*;
 
 /*
- * 需求：使用字符流读写文件
- *
+ * 需求：使用字符流读写文件(一次读写一个字符+字符数组+整行)
+ *  InputStreamReader+Writer
+ *  FileReader+Writer
+ *  BufferedReader+Writer
  * */
 
 public class CopyFileChar {
@@ -91,6 +93,30 @@ public class CopyFileChar {
         //释放资源
         fi.close();
         fw.close();
+    }
+
+    //一次读写一行数据,BufferedReader+BufferedWriter
+    @Test
+    public void read5() throws Exception {
+        //创建文件输入流对象
+        BufferedReader br = new BufferedReader(new FileReader("src/file/file.txt"));
+
+        //创建文件输出流对象
+        BufferedWriter bw = new BufferedWriter(new FileWriter("src/bytechars/newfile.txt"));
+
+        //读写数据
+        String line;
+        while ((line=br.readLine()) != null) {
+            bw.write(line);
+            bw.newLine();
+            bw.flush();
+        }
+
+        //释放资源
+        br.close();
+        bw.close();
+
+
     }
 
 }
