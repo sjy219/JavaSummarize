@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e771dbb0-f949-452e-a362-9914447d2707" name="变更" comment="changes">
-      <change beforePath="$PROJECT_DIR$/io/src/properties/properties.md" beforeDir="false" afterPath="$PROJECT_DIR$/io/src/properties/properties.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io/src/properties/introduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/io/src/properties/introduce.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,33 +71,7 @@
       <recent name="D:\java\Projects\JavaSummarize\Thread\src\multithreading\extendsthread" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.introduce">
-    <configuration name="CollToFileSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="colletionio.CollToFileSorted" />
-      <module name="io" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="colletionio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CopySingleFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="copycases.CopySingleFiles" />
-      <module name="io" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="copycases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.introduce.strPropNames">
     <configuration name="CopyTribleFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="copycases.CopyTribleFiles" />
       <module name="io" />
@@ -123,17 +98,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectFile.collecToFileSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="introduce.getP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="io" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="colletionio.*" />
+          <option name="PATTERN" value="properties.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="colletionio" />
-      <option name="MAIN_CLASS_NAME" value="colletionio.CollectFile" />
-      <option name="METHOD_NAME" value="collecToFileSort" />
+      <option name="PACKAGE_NAME" value="properties" />
+      <option name="MAIN_CLASS_NAME" value="properties.introduce" />
+      <option name="METHOD_NAME" value="getP" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="introduce.setP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="io" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="properties.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="properties" />
+      <option name="MAIN_CLASS_NAME" value="properties.introduce" />
+      <option name="METHOD_NAME" value="setP" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="introduce.strPropNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="io" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="properties.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="properties" />
+      <option name="MAIN_CLASS_NAME" value="properties.introduce" />
+      <option name="METHOD_NAME" value="strPropNames" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.introduce.strPropNames" />
+        <item itemvalue="JUnit.introduce.getP" />
+        <item itemvalue="JUnit.introduce.setP" />
         <item itemvalue="应用程序.introduce" />
         <item itemvalue="应用程序.CopyTribleFiles" />
-        <item itemvalue="应用程序.CopySingleFiles" />
-        <item itemvalue="应用程序.CollToFileSorted" />
-        <item itemvalue="JUnit.CollectFile.collecToFileSort" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664406997646</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="changes">
+      <created>1664407525675</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1664407525675</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
