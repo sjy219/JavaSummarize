@@ -5,6 +5,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
+import java.util.List;
 
 public class Introduce {
 
@@ -56,6 +57,24 @@ public class Introduce {
             System.out.println(name + "," + age);
         }
 
+    }
+
+    //--------------并发修改异常--------------\\
+        //需求：遍历集合，得到每一个元素，看有没有world这个元素，如果有，就添加一个javaee元素
+    @Test
+    public void listException() {
+        //创建list集合，并添加元素
+        List<String> list = new ArrayList<String>();
+        list.add("hallo");
+        list.add("world");
+        list.add("java");
+        //遍历集合
+        for (String ss : list) {
+            if ("world".equals(ss)) {
+                list.add("javaee");
+            }
+        }
+        System.out.println(list);
     }
 
 }

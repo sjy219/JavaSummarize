@@ -1,0 +1,5 @@
+List集合的特有方法
+    a. void add(index, E elment):   在此集合的指定位置插入指定的元素
+    b. E remove(int index):     删除指定索引位置处的元素，返回被修改的元素
+    c. E set(int index, E element):     修改指定索引位置处的元素，返回被修改的元素
+    d. E get(int index):    返回指定索引处的元素
