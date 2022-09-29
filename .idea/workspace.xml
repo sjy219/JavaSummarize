@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e771dbb0-f949-452e-a362-9914447d2707" name="变更" comment="changes">
-      <change afterPath="$PROJECT_DIR$/collections/src/collection/list/list.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/collections/src/collection/Introduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/collections/src/collection/Introduce.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +70,7 @@
       <recent name="D:\java\Projects\JavaSummarize\Thread\src\multithreading\extendsthread" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Introduce">
+  <component name="RunManager" selected="JUnit.Introduce.listException">
     <configuration name="Introduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collection.Introduce" />
       <module name="collections" />
@@ -152,8 +150,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.Introduce" />
         <item itemvalue="JUnit.Introduce.listException" />
+        <item itemvalue="应用程序.Introduce" />
         <item itemvalue="JUnit.Introduce.iterCase" />
         <item itemvalue="JUnit.Introduce.iters" />
         <item itemvalue="JUnit.introduce.loads" />
@@ -337,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664419966618</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="changes">
+      <created>1664427989045</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1664427989045</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

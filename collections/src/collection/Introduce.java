@@ -69,8 +69,23 @@ public class Introduce {
         list.add("world");
         list.add("java");
         //遍历集合
-        for (String ss : list) {
-            if ("world".equals(ss)) {
+//        for (String ss : list) {
+//            if ("world".equals(ss)) {
+//                list.add("javaee");
+//            }
+//        }
+        //-----第二种用迭代器遍历修改也会出问题----\\
+//        Iterator<String> ite = list.iterator();
+//        while (ite.hasNext()) {
+//            String sNext = ite.next();
+//            if ("world".equals(sNext)) {
+//                list.add("javaee");
+//            }
+//        }
+        //-----解决异常-----\\
+        for (int i = 0; i < list.size(); i++) {
+            String s = list.get(i);
+            if ("world".equals(s)) {
                 list.add("javaee");
             }
         }
