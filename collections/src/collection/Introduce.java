@@ -2,10 +2,7 @@ package collection;
 
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 public class Introduce {
 
@@ -82,13 +79,23 @@ public class Introduce {
 //                list.add("javaee");
 //            }
 //        }
-        //-----解决异常-----\\
-        for (int i = 0; i < list.size(); i++) {
-            String s = list.get(i);
-            if ("world".equals(s)) {
-                list.add("javaee");
-            }
-        }
+        //-----解决异常1-----\\
+            //第一个版本
+//        for (int i = 0; i < list.size(); i++) {
+//            String s = list.get(i);
+//            if ("world".equals(s)) {
+//                list.add("javaee");
+//            }
+//        }
+        //-----解决异常2-----\\
+            //第二个版本
+//        ListIterator<String> listIterator = list.listIterator();
+//        while (listIterator.hasNext()) {
+//            String sNext = listIterator.next();
+//            if (sNext.equals("world")) {
+//                listIterator.add("javaee");
+//            }
+//        }
         System.out.println(list);
     }
 

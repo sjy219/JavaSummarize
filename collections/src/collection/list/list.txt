@@ -3,3 +3,18 @@ List集合的特有方法
     b. E remove(int index):     删除指定索引位置处的元素，返回被修改的元素
     c. E set(int index, E element):     修改指定索引位置处的元素，返回被修改的元素
     d. E get(int index):    返回指定索引处的元素
+
+    -------列表迭代器----------
+    ListIterator中的常用方法：
+        a.  E next(): 返回迭代中的下一个元素
+        b.  boolean hasNext(): 如果迭代具有更多元素，则返回true
+        c.  E previous(): 返回列表中的上一个元素
+        d.  boolean hasPrevious(): 如果此列表迭代器在想反方向遍历列表时具有更多元素，则返回true
+        e.  void add(E e): 将指定的元素插入列表
+
+    --------LinkedList集合特有的方法--------
+        a. public void addFirst(E e): 在该列表开头插入指定的元素
+        b. public void addLast(E e): 将指定的元素追加到此列表的末尾
+        c. public E getFirst(): 返回列表中的第一个元素
+        d. public E removeFirst(): 从列表中删除并返回第一个元素
+        e. public E removeLast() : 从列表中删除并返回最后一个元素
