@@ -120,5 +120,7 @@ public class introduce {
         //使用store将prop写回proper.txt中
         prop.store(writer, null);
 
+        writer.close();
+        reader.close();
     }
 }

@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e771dbb0-f949-452e-a362-9914447d2707" name="变更" comment="changes">
-      <change afterPath="$PROJECT_DIR$/io/src/properties/proper.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections/collections.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections/src/collection/Introduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections/src/collection/StudIntroduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections/src/collection/collection.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections/src/map/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/JavaSummarize.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/jdbc/jdbc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/io/src/properties/introduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/io/src/properties/introduce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io/src/properties/properties.md" beforeDir="false" afterPath="$PROJECT_DIR$/io/src/properties/properties.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io/src/properties/proper.txt" beforeDir="false" afterPath="$PROJECT_DIR$/io/src/properties/proper.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/问题集锦.txt" beforeDir="false" afterPath="$PROJECT_DIR$/问题集锦.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,24 +49,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/java/Projects/JavaSummarize/Thread/src&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/java/Projects/JavaSummarize/Thread/src",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="colletionio" />
@@ -73,31 +81,34 @@
       <recent name="D:\java\Projects\JavaSummarize\Thread\src\multithreading\extendsthread" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.introduce.loads">
-    <configuration name="introduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="properties.introduce" />
-      <module name="io" />
+  <component name="RunManager" selected="JUnit.Introduce.iterCase">
+    <configuration name="Introduce.iterCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="collections" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="properties.*" />
+          <option name="PATTERN" value="collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="collection" />
+      <option name="MAIN_CLASS_NAME" value="collection.Introduce" />
+      <option name="METHOD_NAME" value="iterCase" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="introduce.getP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="io" />
+    <configuration name="Introduce.iters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="collections" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="properties.*" />
+          <option name="PATTERN" value="collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="properties" />
-      <option name="MAIN_CLASS_NAME" value="properties.introduce" />
-      <option name="METHOD_NAME" value="getP" />
+      <option name="PACKAGE_NAME" value="collection" />
+      <option name="MAIN_CLASS_NAME" value="collection.Introduce" />
+      <option name="METHOD_NAME" value="iters" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Introduce.iterCase" />
+        <item itemvalue="JUnit.Introduce.iters" />
         <item itemvalue="JUnit.introduce.loads" />
         <item itemvalue="JUnit.introduce.setP" />
         <item itemvalue="JUnit.introduce.strPropNames" />
-        <item itemvalue="JUnit.introduce.getP" />
-        <item itemvalue="应用程序.introduce" />
       </list>
     </recent_temporary>
   </component>
@@ -324,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664409083532</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="changes">
+      <created>1664410588042</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1664410588042</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

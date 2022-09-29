@@ -1,0 +1,14 @@
+1.常用方法：
+    boolean add(E e):   添加元素
+    boolean remove(Object o):   从集合中移除指定的元素
+    void clear():   清空集合中的元素
+    boolean contains(Object o):     判断集合中是否存在指定的元素
+    boolean isEmpty():      判断集合是否为空
+    int size():     集合的长度，也就是集合中元素的个数
+
+    ----------迭代器-------------
+    public Iterator<E> iterator():
+        Collection<String> c, Iterator<Sting> iter = c.iterator()
+            iter:
+                1.  boolean hasnNxt():  如果迭代具有更多元素，则返回true
+                2.  E next():   返回迭代中的下一个元素
