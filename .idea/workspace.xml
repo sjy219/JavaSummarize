@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e771dbb0-f949-452e-a362-9914447d2707" name="变更" comment="changes">
+      <change afterPath="$PROJECT_DIR$/io/src/properties/proper.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/io/src/properties/introduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/io/src/properties/introduce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io/src/properties/properties.md" beforeDir="false" afterPath="$PROJECT_DIR$/io/src/properties/properties.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,20 +73,7 @@
       <recent name="D:\java\Projects\JavaSummarize\Thread\src\multithreading\extendsthread" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.introduce.setP">
-    <configuration name="CopyTribleFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="copycases.CopyTribleFiles" />
-      <module name="io" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="copycases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.introduce.loads">
     <configuration name="introduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="properties.introduce" />
       <module name="io" />
@@ -108,6 +98,22 @@
       <option name="PACKAGE_NAME" value="properties" />
       <option name="MAIN_CLASS_NAME" value="properties.introduce" />
       <option name="METHOD_NAME" value="getP" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="introduce.loads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="io" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="properties.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="properties" />
+      <option name="MAIN_CLASS_NAME" value="properties.introduce" />
+      <option name="METHOD_NAME" value="loads" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.introduce.loads" />
         <item itemvalue="JUnit.introduce.setP" />
         <item itemvalue="JUnit.introduce.strPropNames" />
         <item itemvalue="JUnit.introduce.getP" />
         <item itemvalue="应用程序.introduce" />
-        <item itemvalue="应用程序.CopyTribleFiles" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664408782385</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="changes">
+      <created>1664409083532</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1664409083532</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

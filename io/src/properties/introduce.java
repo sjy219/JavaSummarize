@@ -2,6 +2,8 @@ package properties;
 
 import org.junit.Test;
 
+import java.io.FileReader;
+import java.io.FileWriter;
 import java.util.Properties;
 import java.util.Set;
 
@@ -94,5 +96,29 @@ public class introduce {
             String value = prop.getProperty(key);
             System.out.println(key + "," + value);
         }
+    }
+
+    //----void load(Reader reader) + void store(Writer writer,String comments----\\
+    @Test
+    public void loads() throws Exception{
+        //创建Reader对象
+        FileReader reader = new FileReader("src/properties/proper.txt");
+
+        //创建prop对象,并load reader对象
+        Properties prop = new Properties();
+        prop.load(reader);
+
+        //打印prop到控制台
+        System.out.println(prop);
+
+        //修改其中的键值对
+        prop.setProperty("002", "李逵");
+
+        //创建Write字符写入流
+        FileWriter writer = new FileWriter("src/properties/proper.txt");
+
+        //使用store将prop写回proper.txt中
+        prop.store(writer, null);
+
     }
 }
