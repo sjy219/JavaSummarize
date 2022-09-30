@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e771dbb0-f949-452e-a362-9914447d2707" name="变更" comment="changes">
-      <change afterPath="$PROJECT_DIR$/collections/src/collection/cases/Randoms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collections/src/collection/set/StudentsComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections/src/map/cases/HashMapTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections/src/map/cases/HashMapTraversal2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections/src/map/cases/Students01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections/src/map/map/Introduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections/src/map/map/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections/src/map/map/map.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections/src/map/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections/src/collection/set/TreeSetIntroduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/collections/src/collection/set/TreeSetIntroduce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections/src/collection/set/TreeSetTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collections/src/map/test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,13 +78,13 @@
       <recent name="D:\java\Projects\JavaSummarize\Thread\src\multithreading\extendsthread" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Randoms.randoms">
-    <configuration name="TreeSetIntroduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.set.TreeSetIntroduce" />
+  <component name="RunManager" selected="应用程序.HashMapTraversal2">
+    <configuration name="HashMapTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="map.cases.HashMapTraversal" />
       <module name="collections" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.set.*" />
+          <option name="PATTERN" value="map.cases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.set.TreeSetTest" />
+    <configuration name="HashMapTraversal2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="map.cases.HashMapTraversal2" />
       <module name="collections" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.set.*" />
+          <option name="PATTERN" value="map.cases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,61 +105,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Randoms.randoms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Introduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="map.map.Introduce" />
       <module name="collections" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.cases.*" />
+          <option name="PATTERN" value="map.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="collection.cases" />
-      <option name="MAIN_CLASS_NAME" value="collection.cases.Randoms" />
-      <option name="METHOD_NAME" value="randoms" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeSetIntroduce.treeComparator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="map.Test" />
       <module name="collections" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.set.*" />
+          <option name="PATTERN" value="map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="collection.set" />
-      <option name="MAIN_CLASS_NAME" value="collection.set.TreeSetIntroduce" />
-      <option name="METHOD_NAME" value="treeComparator" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeSetIntroduce.treeSetComp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="map.map.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="map.map.Test" />
       <module name="collections" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.set.*" />
+          <option name="PATTERN" value="map.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="collection.set" />
-      <option name="MAIN_CLASS_NAME" value="collection.set.TreeSetIntroduce" />
-      <option name="METHOD_NAME" value="treeSetComp" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Randoms.randoms" />
-        <item itemvalue="JUnit.TreeSetIntroduce.treeComparator" />
-        <item itemvalue="JUnit.TreeSetIntroduce.treeSetComp" />
-        <item itemvalue="应用程序.TreeSetIntroduce" />
-        <item itemvalue="应用程序.TreeSetTest" />
+        <item itemvalue="应用程序.HashMapTraversal2" />
+        <item itemvalue="应用程序.HashMapTraversal" />
+        <item itemvalue="应用程序.map.map.Test" />
+        <item itemvalue="应用程序.Test" />
+        <item itemvalue="应用程序.Introduce" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664443146869</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="changes">
+      <created>1664455146571</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1664455146571</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

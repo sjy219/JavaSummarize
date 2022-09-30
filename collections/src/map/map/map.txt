@@ -1,0 +1,26 @@
+Map集合概述：
+    1.Interface Map(K,V> K:键的类型； V:值的类型
+    2.将键映射到值的对象，不能包含重复的键；每个键可以映射最多一个值
+
+
+    创建Map集合的对象：
+        1.多态的方式
+        2.具体的实现类HashMap
+
+    常用方法：
+        1.V put(K key, V value): 添加元素
+        2.V remove(Object key): 根据键删除键值对元素
+        3.void clear(): 移除所有的键值对元素
+        4.boolean containsKey(Object key): 判断集合是否包含指定的键
+        5.boolean containsValue(Object value): 判断集合是否包含指定的值
+        6.int size(): 集合的长度，也就是集合中键值对的个数
+
+    获取方法：
+        1.V get(Object key):    根据键获取值
+        2.Set<K> keySet():  获取所有键的集合
+        3.Collection<V> Values():   获取所有值的集合
+        4.Set<Map.Entry<K,V> entrySet():    获取所有键值对对象的集合
+                可以用PrintStream对象的println方法，把键值对直接写入文件
+                或者直接用对象的序列化流ObjectOutputStream
+            K getKey(): 从Map.Entry<K,V>中获取键
+            V getValue(): 从Map.Entry<K,V>中获取值
