@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e771dbb0-f949-452e-a362-9914447d2707" name="变更" comment="changes">
-      <change afterPath="$PROJECT_DIR$/collections/src/collectionss/ArrLiStuSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collections/src/collectionss/Students01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collections/src/map/cases/ArListHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collections/src/map/cases/CountChars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collections/src/map/cases/HashMapArList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections/src/cases/Poker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections/src/cases/PokerPro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +72,7 @@
       <recent name="D:\java\Projects\JavaSummarize\Thread\src\multithreading\extendsthread" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.ArrLiStuSort">
+  <component name="RunManager" selected="应用程序.PokerPro">
     <configuration name="ArrLiStuSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collectionss.ArrLiStuSort" />
       <module name="collections" />
@@ -102,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapArList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="map.cases.HashMapArList" />
+    <configuration name="Poker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cases.Poker" />
       <module name="collections" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="map.cases.*" />
+          <option name="PATTERN" value="cases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,45 +112,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapArList.linkSets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PokerPro (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cases.PokerPro" />
       <module name="collections" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="map.cases.*" />
+          <option name="PATTERN" value="cases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="map.cases" />
-      <option name="MAIN_CLASS_NAME" value="map.cases.HashMapArList" />
-      <option name="METHOD_NAME" value="linkSets" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapArList.treeset" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PokerPro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cases.PokerPro" />
       <module name="collections" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="map.cases.*" />
+          <option name="PATTERN" value="cases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="map.cases" />
-      <option name="MAIN_CLASS_NAME" value="map.cases.HashMapArList" />
-      <option name="METHOD_NAME" value="treeset" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.PokerPro" />
+        <item itemvalue="应用程序.PokerPro (1)" />
+        <item itemvalue="应用程序.Poker" />
         <item itemvalue="应用程序.ArrLiStuSort" />
         <item itemvalue="应用程序.CountChars" />
-        <item itemvalue="JUnit.HashMapArList.treeset" />
-        <item itemvalue="JUnit.HashMapArList.linkSets" />
-        <item itemvalue="应用程序.HashMapArList" />
       </list>
     </recent_temporary>
   </component>
@@ -376,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664503271988</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="changes">
+      <created>1664526323929</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1664526323929</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
